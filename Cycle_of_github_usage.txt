@@ -1,0 +1,27 @@
+Cycle of github usage:
+git init - Initialize a repository in your local machine in your project directory
+git status - Shows which branch of the project you are on. Initially on Main.
+Make changes in the project > Save the changes
+git add . - Adds all changes made in the project to the staging area
+git commit -m "<message>" - Commits changes in the staging area to the local repository
+Create a GitHub repository for your project
+git remote add origin
+git push origin <branch name> - Pushes the files in the local repository to GitHub.
+git clone <Path of GitHub repo> <Optional: name of local repo> - Creates/Updates the latest version of repo in local machine
+git branch - Lists all branches available in the local machine {INFO ONLY}
+git checkout -b <Branch name> - Creates a new branch with the specified name and switches to it
+Make changes in project files > Save changes
+git add . - Adds all changes made in the project to the staging area
+git commit -m "<message>" - Commits changes in the staging area of the branch to the local repository
+git diff <source branch> <target branch>- Highlights differences between branches {INFO ONLY}
+git push origin <branch name> - Pushes the files from branch in the local repository to GitHub
+Pull Request review on GitHub
+Reviewers can comment on the whole pull request or add comments to specific lines or files.
+In the "Pull Requests" list, click the pull request you'd like to merge.
+Merge all of the commits into the base branch by clicking Merge pull request.
+git checkout main - Switch to main branch.
+git pull origin main - Downloads the changes done on GitHub main to your local machine main branch.
+git checkout -d <branch name> - Delete the branch you were working on to avoid confusion.
+Start at line 12 for next round.
+
+https://docs.github.com/en/get-started/quickstart/github-flow
